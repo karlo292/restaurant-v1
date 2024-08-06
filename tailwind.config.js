@@ -8,14 +8,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // Extend Tailwind's default theme here
-      // For example, adding custom colors or fonts
-      colors: {
-        'custom-blue': '#007bff', // Example custom color
+      backgroundColor: {
+        'blur-orange': 'rgba(124, 83, 41, 0.4)',
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },
-  plugins: [
-    // Add any plugins here
-  ],
+  plugins: [],
 }
